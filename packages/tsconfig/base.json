@@ -15,7 +15,14 @@
     "preserveWatchOutput": true,
     "skipLibCheck": true,
     "strict": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+    "allowJs": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }
